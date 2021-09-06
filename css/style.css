@@ -10,12 +10,26 @@
 }
 
 .clearfix {
-    margin: 30px;
+    margin: 15px;
 }
 
-.nav {
+.menu {
     width: 1000px;
     height: 100px;
     margin: auto;
     background-color: pink;
+}
+
+.contenuto {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: yellow;
+}
+
+.contenuto2 {
+    width: 1000px;
+    height: 500px;
+    margin:15px auto;
+    background-color: lightskyblue;
 }
