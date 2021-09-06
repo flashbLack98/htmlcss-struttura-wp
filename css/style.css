@@ -11,19 +11,21 @@
     border: 1px solid black;
 }
 
-/* NAV */
+
+/* CLEARFIX */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* NAV */
 .menu {
     height: 100px;
     width: 100%;
     background-color: magenta;
     float: left;
-    margin: 15px 0;
+    margin-bottom: 15px
 }
 /* FINE NAV */
 
@@ -42,18 +44,18 @@
     background-color: lightblue;
     float: left;
     margin: 15px 0;
-    border-bottom: 10px solid darkblue;
+    border-bottom: 10px solid rgb(0, 138, 252);
 }
 
 .nav_contenuto1 {
     height: 90px;
-    border-bottom: 10px solid darkblue;
+    border-bottom: 10px solid rgb(0, 138, 252);
 }
 
 .colonna1 {
     width:30%;
     height: 410px;
-    border-right: 10px solid darkblue;
+    border-right: 10px solid rgb(0, 138, 252);
     float: left;
 }
 
@@ -66,6 +68,16 @@
 .colonna3 {
     width:30%;
     height: 410px;
-    border-left: 10px solid darkblue;
+    border-left: 10px solid rgb(0, 138, 252);
     float: left;
+}
+/* FINE CONTENUTO2 */
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(162, 15, 199);
+    float: left;
+    margin-top;: 15px
 }
