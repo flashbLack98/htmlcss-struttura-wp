@@ -3,33 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.clearfix::after {
-    content: "";
-    display: table;
-}
-
-.clearfix {
-    margin: 15px;
-}
-
-.menu {
-    width: 1000px;
-    height: 100px;
-    margin: auto;
-    background-color: pink;
-}
-
-.contenuto {
-    width: 1000px;
-    height: 500px;
-    margin: auto;
-    background-color: yellow;
-}
-
-.contenuto2 {
-    width: 1000px;
-    height: 500px;
-    margin:15px auto;
-    background-color: lightskyblue;
-}
